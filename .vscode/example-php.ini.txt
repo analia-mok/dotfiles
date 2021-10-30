@@ -1,0 +1,13 @@
+[PHP]
+
+;;;;;;;;;;;;;;;
+;IMPORTANT;
+;PLACE THIS FILE UNDER .vscode folder;
+;SO IT DOESNT GET COMMITTED;
+;;;;;;;;;;;;;;;
+
+; Xdebug
+xdebug.mode=debug
+xdebug.start_with_request = yes
+xdebug.client_host = ${LANDO_HOST_IP}
+xdebug.log = /tmp/xdebug.log
