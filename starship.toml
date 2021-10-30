@@ -1,0 +1,56 @@
+[aws]
+disabled = true
+
+[directory]
+read_only = " "
+style = "cyan bold"
+truncate_to_repo = false
+
+[directory.substitutions]
+"~/Sites/bitbucket" = "bitbucket.org"
+
+[docker_context]
+symbol = " "
+
+[gcloud]
+disabled = true
+
+[git_branch]
+symbol = " "
+format = "[$symbol$branch]($style) "
+style = "bold yellow"
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[git_status]
+disabled = true
+
+[package]
+symbol = " "
+disabled = true
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+disabled = true
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
